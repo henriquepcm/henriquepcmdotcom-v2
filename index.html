@@ -1,35 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
      <head>
+          <!-- Preloading fonts and styles -->
+          <link
+               rel="preload"
+               href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap"
+               as="style"
+          />
+
+          <link rel="preload" href="/src/styles/output.css" as="style" />
+
           <!-- Preloading images for performance improvement -->
-          <!-- <link
+          <link
                rel="preload"
                href="./img/phone-kiwi-sideways-retina.png"
                as="image"
+               media="(min-resolution: 2dppx)"
           />
           <link
                rel="preload"
                href="./img/phone-kiwi-sideways-shadow-retina.png"
                as="image"
+               media="(min-resolution: 2dppx)"
           />
-          <link rel="preload" href="./img/laptop-retina.png" as="image" />
+          <link
+               rel="preload"
+               href="./img/laptop-retina.png"
+               as="image"
+               media="(min-resolution: 2dppx)"
+          />
           <link
                rel="preload"
                href="./img/laptop-shadow-retina.png"
                as="image"
+               media="(min-resolution: 2dppx)"
           />
           <link
                rel="preload"
                href="./img/phone-kiwi-sideways-regular.png"
                as="image"
+               media="(min-resolution: 1dppx)"
           />
           <link
                rel="preload"
                href="./img/phone-kiwi-sideways-shadow.png"
                as="image"
+               media="(min-resolution: 1dppx)"
           />
-          <link rel="preload" href="./img/laptop-regular.png" as="image" />
-          <link rel="preload" href="./img/laptop-shadow.png" as="image" /> -->
+          <link
+               rel="preload"
+               href="./img/laptop-regular.png"
+               as="image"
+               media="(min-resolution: 1dppx)"
+          />
+          <link
+               rel="preload"
+               href="./img/laptop-shadow.png"
+               as="image"
+               media="(min-resolution: 1dppx)"
+          />
+
+          <link
+               href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap"
+               rel="stylesheet"
+          />
+          <link href="/src/styles/output.css" rel="stylesheet" />
 
           <title>Henrique Pochmann - Front-end Developer</title>
           <meta charset="UTF-8" />
@@ -80,24 +115,22 @@
                content="https://henriquepcm.com/img/henrique-pochmann-frontend-developer.png"
           />
           <meta name="twitter:site" content="@henriquepcm" />
-
-          <style>
-               @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap");
-          </style>
           <link
                rel="icon"
                type="image/svg+xml"
                href="./img/henrique-pochmann-front-end-developer-ui-ux-designer-brazil.svg"
           />
-          <link href="/src/styles/output.css" rel="stylesheet" />
      </head>
      <body>
           <div id="root"></div>
           <script type="module" src="/src/main.tsx"></script>
+
+          <!-- Email JS -->
           <script
                type="text/javascript"
                src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
           ></script>
+
           <!-- Google tag (gtag.js) -->
           <script
                async
