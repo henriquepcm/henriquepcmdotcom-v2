@@ -1,8 +1,81 @@
+import { useSpring, useInView, animated } from "@react-spring/web";
+
 export default function HomeAnimation() {
+     const [refHomeAnimation, inViewHomeAnimation] = useInView({
+          rootMargin: "-50% 0%",
+     });
+
+     const styleLaptop = useSpring({
+          from: {
+               opacity: 0,
+               filter: "blur(5rem)",
+               transform: "scale(0.5)",
+               x: -200,
+          },
+          to: {
+               opacity: inViewHomeAnimation ? 1 : 0,
+               filter: inViewHomeAnimation ? "blur(0)" : "blur(5rem)",
+               transform: inViewHomeAnimation ? "scale(1)" : "scale(0.5)",
+               x: inViewHomeAnimation ? 0 : -200,
+          },
+
+          delay: 0,
+          config: { friction: 50 },
+     });
+
+     const stylePhone = useSpring({
+          from: {
+               opacity: 0,
+               filter: "blur(5rem)",
+               transform: "scale(0.5)",
+               x: 200,
+          },
+          to: {
+               opacity: inViewHomeAnimation ? 1 : 0,
+               filter: inViewHomeAnimation ? "blur(0)" : "blur(5rem)",
+               transform: inViewHomeAnimation ? "scale(1)" : "scale(0.5)",
+               x: inViewHomeAnimation ? 0 : 200,
+          },
+          delay: 500,
+          config: { friction: 50 },
+     });
+
+     const styleH1 = useSpring({
+          from: {
+               opacity: 0,
+               y: -10,
+          },
+          to: {
+               opacity: inViewHomeAnimation ? 1 : 0,
+               y: inViewHomeAnimation ? 0 : -10,
+          },
+          delay: 1000,
+          config: { friction: 50 },
+     });
+
+     const styleRole = useSpring({
+          from: {
+               opacity: 0,
+               y: -10,
+          },
+          to: {
+               opacity: inViewHomeAnimation ? 1 : 0,
+               y: inViewHomeAnimation ? 0 : -10,
+          },
+          delay: 1500,
+          config: { friction: 50 },
+     });
+
      return (
           <div className="flex flex-col flex-grow justify-center items-center -translate-y-10 lg:-translate-y-0 relative">
-               <div className="flex flex-row items-center translate-y-5">
-                    <div className="hidden lg:flex flex-col">
+               <animated.div
+                    ref={refHomeAnimation}
+                    className="flex flex-row items-center translate-y-5"
+               >
+                    <animated.div
+                         style={stylePhone}
+                         className="hidden lg:flex flex-col"
+                    >
                          <picture>
                               <source
                                    srcSet="./img/phone-kiwi-sideways-retina.avif"
@@ -28,9 +101,9 @@ export default function HomeAnimation() {
                                    className="w-[7rem] -translate-y-12 translate-x-12"
                               />
                          </picture>
-                    </div>
+                    </animated.div>
 
-                    <div className="flex flex-col">
+                    <animated.div style={styleLaptop} className="flex flex-col">
                          <picture>
                               <source
                                    srcSet="./img/laptop-retina.avif"
@@ -56,15 +129,20 @@ export default function HomeAnimation() {
                                    className="w-[19rem] -translate-y-20 -translate-x-4 z-10"
                               />
                          </picture>
-                    </div>
-               </div>
+                    </animated.div>
+               </animated.div>
                <div className="flex flex-col items-center absolute z-50 mt-[26rem] w-[18.8rem] lg:w-full">
                     <div className="flex justify-center items-center text-center leading-[3rem]">
-                         <h1>Henrique Pochmann</h1>
+                         <animated.h1 style={styleH1}>
+                              Henrique Pochmann
+                         </animated.h1>
                     </div>
-                    <div className="flex justify-center uppercase text-white text-center leading-[1.5rem] tracking-[0.44rem]">
+                    <animated.div
+                         style={styleRole}
+                         className="flex justify-center uppercase text-white text-center leading-[1.5rem] tracking-[0.44rem]"
+                    >
                          Front-end Developer & UI/UX Designer
-                    </div>
+                    </animated.div>
                </div>
           </div>
      );
