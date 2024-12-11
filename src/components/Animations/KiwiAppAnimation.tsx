@@ -73,8 +73,8 @@ export default function KiwiAppAnimation() {
                          >
                               <img
                                    loading="lazy"
-                                   src="./img/kiwi-app-phone-electricity.png"
-                                   srcSet="./img/kiwi-app-phone-electricity.png 1x, ./img/kiwi-app-phone-electricity-retina.png 2x"
+                                   src="./img/kiwi-app-phone-electricity.avif"
+                                   srcSet="./img/kiwi-app-phone-electricity.avif 1x, ./img/kiwi-app-phone-electricity-retina.avif 2x"
                                    alt=""
                               />
                          </animated.div>
@@ -84,8 +84,8 @@ export default function KiwiAppAnimation() {
                          >
                               <img
                                    loading="lazy"
-                                   src="./img/kiwi-app-phone-cell-phone.png"
-                                   srcSet="./img/kiwi-app-phone-cell-phone.png 1x, ./img/kiwi-app-phone-cell-phone-retina.png 2x"
+                                   src="./img/kiwi-app-phone-cell-phone.avif"
+                                   srcSet="./img/kiwi-app-phone-cell-phone.avif 1x, ./img/kiwi-app-phone-cell-phone-retina.avif 2x"
                                    alt=""
                               />
                          </animated.div>
@@ -95,8 +95,8 @@ export default function KiwiAppAnimation() {
                          >
                               <img
                                    loading="lazy"
-                                   src="./img/kiwi-app-phone-internet.png"
-                                   srcSet="./img/kiwi-app-phone-internet.png 1x, ./img/kiwi-app-phone-internet-retina.png 2x"
+                                   src="./img/kiwi-app-phone-internet.avif"
+                                   srcSet="./img/kiwi-app-phone-internet.avif 1x, ./img/kiwi-app-phone-internet-retina.avif 2x"
                                    alt=""
                               />
                          </animated.div>
@@ -106,16 +106,16 @@ export default function KiwiAppAnimation() {
                          >
                               <img
                                    loading="lazy"
-                                   src="./img/kiwi-app-phone-health-insurance.png"
-                                   srcSet="./img/kiwi-app-phone-health-insurance.png 1x, ./img/kiwi-app-phone-health-insurance-retina.png 2x"
+                                   src="./img/kiwi-app-phone-health-insurance.avif"
+                                   srcSet="./img/kiwi-app-phone-health-insurance.avif 1x, ./img/kiwi-app-phone-health-insurance-retina.avif 2x"
                                    alt=""
                               />
                          </animated.div>
                          <div className="absolute z-10 w-[25rem] ">
                               <img
                                    loading="lazy"
-                                   src="./img/kiwi-app-phone-base.png"
-                                   srcSet="./img/kiwi-app-phone-base.png 1x, ./img/kiwi-app-phone-base-retina.png 2x"
+                                   src="./img/kiwi-app-phone-base.avif"
+                                   srcSet="./img/kiwi-app-phone-base.avif 1x, ./img/kiwi-app-phone-base-retina.avif 2x"
                                    alt=""
                               />
                          </div>
@@ -126,8 +126,8 @@ export default function KiwiAppAnimation() {
                     >
                          <img
                               loading="lazy"
-                              src="./img/kiwi-app-phone-base-shadow.png"
-                              srcSet="./img/kiwi-app-phone-base-shadow.png 1x, ./img/kiwi-app-phone-base-shadow-retina.png 2x"
+                              src="./img/kiwi-app-phone-base-shadow.avif"
+                              srcSet="./img/kiwi-app-phone-base-shadow.avif 1x, ./img/kiwi-app-phone-base-shadow-retina.avif 2x"
                               alt=""
                          />
                     </animated.div>

@@ -7,35 +7,35 @@ type ProjectAnimationProps = {
 const projectImages = {
      bills: {
           desktopHomeScreen: {
-               src: "./img/kiwi-bills-desktop-home-screen.png",
-               srcSet: "./img/kiwi-bills-desktop-home-screen.png 1x, ./img/kiwi-bills-desktop-home-screen-retina.png 2x",
+               src: "./img/kiwi-bills-desktop-home-screen.avif",
+               srcSet: "./img/kiwi-bills-desktop-home-screen.avif 1x, ./img/kiwi-bills-desktop-home-screen-retina.avif 2x",
                alt: "Desktop home screen of the project Kiwi Monthly Bills Tracker",
           },
           mobileHomeScreen: {
-               src: "./img/kiwi-bills-mobile-home-screen.png",
-               srcSet: "./img/kiwi-bills-mobile-home-screen.png 1x, ./img/kiwi-bills-mobile-home-screen-retina.png 2x",
+               src: "./img/kiwi-bills-mobile-home-screen.avif",
+               srcSet: "./img/kiwi-bills-mobile-home-screen.avif 1x, ./img/kiwi-bills-mobile-home-screen-retina.avif 2x",
                alt: "Mobile Home screen of the project Kiwi Monthly Bills Tracker",
           },
           mobileSecondaryScreen: {
-               src: "./img/kiwi-bills-mobile-secondary-screen.png",
-               srcSet: "./img/kiwi-bills-mobile-secondary-screen.png 1x, ./img/kiwi-bills-mobile-secondary-screen-retina.png 2x",
+               src: "./img/kiwi-bills-mobile-secondary-screen.avif",
+               srcSet: "./img/kiwi-bills-mobile-secondary-screen.avif 1x, ./img/kiwi-bills-mobile-secondary-screen-retina.avif 2x",
                alt: "Mobile secondary screen of the project Kiwi Monthly Bills Tracker",
           },
      },
      stocks: {
           desktopHomeScreen: {
-               src: "./img/kiwi-stocks-desktop-home-screen.png",
-               srcSet: "./img/kiwi-stocks-desktop-home-screen.png 1x, ./img/kiwi-stocks-desktop-home-screen-retina.png 2x",
+               src: "./img/kiwi-stocks-desktop-home-screen.avif",
+               srcSet: "./img/kiwi-stocks-desktop-home-screen.avif 1x, ./img/kiwi-stocks-desktop-home-screen-retina.avif 2x",
                alt: "Desktop home screen of the project Kiwi Stocks",
           },
           mobileHomeScreen: {
-               src: "./img/kiwi-stocks-mobile-home-screen.png",
-               srcSet: "./img/kiwi-stocks-mobile-home-screen.png 1x, ./img/kiwi-stocks-mobile-home-screen-retina.png 2x",
+               src: "./img/kiwi-stocks-mobile-home-screen.avif",
+               srcSet: "./img/kiwi-stocks-mobile-home-screen.avif 1x, ./img/kiwi-stocks-mobile-home-screen-retina.avif 2x",
                alt: "Mobile Home screen of the project Kiwi Stocks",
           },
           mobileSecondaryScreen: {
-               src: "./img/kiwi-stocks-mobile-secondary-screen.png",
-               srcSet: "./img/kiwi-stocks-mobile-secondary-screen.png 1x, ./img/kiwi-stocks-mobile-secondary-screen-retina.png 2x",
+               src: "./img/kiwi-stocks-mobile-secondary-screen.avif",
+               srcSet: "./img/kiwi-stocks-mobile-secondary-screen.avif 1x, ./img/kiwi-stocks-mobile-secondary-screen-retina.avif 2x",
                alt: "Mobile secondary screen of the project Kiwi Stocks",
           },
      },
@@ -114,8 +114,8 @@ export default function ProjectAnimation({ project }: ProjectAnimationProps) {
                          />
                          <animated.img
                               style={styleDesktopScreenShadow}
-                              src="./img/desktop-screen-shadow.png"
-                              srcSet="./img/desktop-screen-shadow.png 1x, ./img/desktop-screen-shadow-retina.png 2x"
+                              src="./img/desktop-screen-shadow.avif"
+                              srcSet="./img/desktop-screen-shadow.avif 1x, ./img/desktop-screen-shadow-retina.avif 2x"
                               className="md:w-5/6 lg:w-full"
                               loading="lazy"
                               alt=""
@@ -133,8 +133,8 @@ export default function ProjectAnimation({ project }: ProjectAnimationProps) {
                               />
                               <animated.img
                                    style={styleMobileSecondaryScreenShadow}
-                                   src="./img/phone-shadow.png"
-                                   srcSet="./img/phone-shadow.png 1x, ./img/phone-shadow-retina.png 2x"
+                                   src="./img/phone-shadow.avif"
+                                   srcSet="./img/phone-shadow.avif 1x, ./img/phone-shadow-retina.avif 2x"
                                    className="w-[6.1rem]"
                                    loading="lazy"
                                    alt=""
@@ -151,8 +151,8 @@ export default function ProjectAnimation({ project }: ProjectAnimationProps) {
                               />
                               <animated.img
                                    style={styleMobileHomeScreenShadow}
-                                   src="./img/phone-shadow.png"
-                                   srcSet="./img/phone-shadow.png 1x, ./img/phone-shadow-retina.png 2x"
+                                   src="./img/phone-shadow.avif"
+                                   srcSet="./img/phone-shadow.avif 1x, ./img/phone-shadow-retina.avif 2x"
                                    className="w-[6.1rem]"
                                    loading="lazy"
                                    alt=""

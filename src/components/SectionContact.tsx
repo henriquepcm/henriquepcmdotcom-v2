@@ -39,7 +39,7 @@ export default function SectionContact() {
      return (
           <section
                id="Contact"
-               className="flex w-full min-h-screen items-center justify-center pt-44 bg-[url(/img/bg-light-radial.png),url(/img/bg-light-1.png),url(/img/bg-light-2.png)] [background-position:0%_25%,100%_33%,80%_100%] bg-no-repeat"
+               className="flex w-full min-h-screen items-center justify-center pt-44 bg-[url(/img/bg-light-radial.avif),url(/img/bg-light-1.avif),url(/img/bg-light-2.avif)] [background-position:0%_25%,100%_33%,80%_100%] bg-no-repeat"
           >
                <div className="flex flex-col items-center justify-center lg:flex-row w-10/12 md:w-6/12 lg:w-8/12 gap-28">
                     <div className="flex flex-col lg:flex-row items-center justify-center w-full h-full gap-40">
@@ -138,8 +138,8 @@ export default function SectionContact() {
                               } flex flex-col items-center justify-center gap-5 w-full lg:w-4/6 2xl:w-3/6 transition-opacity duration-300 ease-in-out`}
                          >
                               <img
-                                   src="./img/illustration-message-sent.png"
-                                   srcSet="./img/illustration-message-sent.png 1x, ./img/illustration-message-sent-retina.png 2x"
+                                   src="./img/illustration-message-sent.avif"
+                                   srcSet="./img/illustration-message-sent.avif 1x, ./img/illustration-message-sent-retina.avif 2x"
                                    className="w-10/12"
                                    loading="lazy"
                                    alt="Illustration of a desktop window confirming the message was successfully sent."
@@ -153,8 +153,8 @@ export default function SectionContact() {
                          <div className="flex flex-col items-center lg:items-end lg:w-3/6">
                               <div className="flex flex-col items-center gap-3">
                                    <img
-                                        src="./img/henrique-pochmann-front-end-developer.jpg"
-                                        srcSet="./img/henrique-pochmann-front-end-developer.jpg 1x, ./img/henrique-pochmann-front-end-developer-retina.jpg 2x"
+                                        src="./img/henrique-pochmann-front-end-developer.avif"
+                                        srcSet="./img/henrique-pochmann-front-end-developer.avif 1x, ./img/henrique-pochmann-front-end-developer-retina.avif 2x"
                                         className="w-24 rounded-full border-[0.35rem]"
                                         loading="lazy"
                                         alt="Avatar showing the face of the front-end developer Henrique Pochmann"

@@ -32,7 +32,7 @@ export default function SectionProjects() {
           <>
                <section
                     id="Projects"
-                    className="flex flex-col min-h-screen justify-center items-center pt-44 bg-[url(/img/bg-light-radial.png),url(/img/bg-light-1.png),url(/img/bg-light-2.png)] [background-position:50%_10%,100%_70%,0%_0%] bg-no-repeat"
+                    className="flex flex-col min-h-screen justify-center items-center pt-44 bg-[url(/img/bg-light-radial.avif),url(/img/bg-light-1.avif),url(/img/bg-light-2.avif)] [background-position:50%_10%,100%_70%,0%_0%] bg-no-repeat"
                >
                     <div className="flex flex-col lg:flex-row lg:gap-10 items-end h-full w-10/12 sm:w-8/12">
                          <div className="lg:w-3/6">
@@ -101,7 +101,7 @@ export default function SectionProjects() {
                          </div>
                     </div>
                </section>
-               <section className="flex flex-col min-h-screen justify-center items-center pt-44 bg-[url(/img/bg-light-radial.png),url(/img/bg-light-1.png),url(/img/bg-light-2.png)] [background-position:0%_0%,0%_90%,90%_0%] bg-no-repeat">
+               <section className="flex flex-col min-h-screen justify-center items-center pt-44 bg-[url(/img/bg-light-radial.avif),url(/img/bg-light-1.avif),url(/img/bg-light-2.avif)] [background-position:0%_0%,0%_90%,90%_0%] bg-no-repeat">
                     <div className="flex flex-col lg:flex-row lg:gap-10 items-end h-full w-10/12 sm:w-8/12">
                          <div className="hidden lg:block lg:w-4/6">
                               <ProjectAnimation project="bills" />

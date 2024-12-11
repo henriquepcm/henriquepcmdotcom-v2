@@ -78,81 +78,53 @@ export default function HomeAnimation() {
                     >
                          <picture>
                               <source
-                                   srcSet="./img/phone-kiwi-sideways-retina.png"
+                                   srcSet="./img/phone-kiwi-sideways-retina.avif"
                                    media="(min-resolution: 2dppx)"
                               />
                               <img
-                                   src="./img/phone-kiwi-sideways-regular.png"
+                                   src="./img/phone-kiwi-sideways-regular.avif"
                                    alt="Sideways cell phone"
                                    className="w-[7rem] -translate-y-5"
                               />
                          </picture>
 
-                         {/* <img
-                              src="./img/phone-kiwi-sideways-regular.png"
-                              srcSet="./img/phone-kiwi-sideways-regular.png 1x, ./img/phone-kiwi-sideways-retina.png 2x"
-                              className="w-[7rem] -translate-y-5"
-                              alt="Sideways cell phone"
-                         /> */}
-
                          <picture>
                               <source
-                                   srcSet="./img/phone-kiwi-sideways-shadow-retina.png"
+                                   srcSet="./img/phone-kiwi-sideways-shadow-retina.avif"
                                    media="(min-resolution: 2dppx)"
                               />
                               <img
-                                   src="./img/phone-kiwi-sideways-shadow.png"
+                                   src="./img/phone-kiwi-sideways-shadow.avif"
                                    alt=""
                                    className="w-[7rem] -translate-y-12 translate-x-12"
                               />
                          </picture>
-
-                         {/* <img
-                              src="./img/phone-kiwi-sideways-shadow.png"
-                              srcSet="./img/phone-kiwi-sideways-shadow.png 1x, ./img/phone-kiwi-sideways-shadow-retina.png 2x"
-                              className="w-[7rem] -translate-y-12 translate-x-12"
-                              alt=""
-                         /> */}
                     </animated.div>
 
                     <animated.div style={styleLaptop} className="flex flex-col">
                          <picture>
                               <source
-                                   srcSet="./img/laptop-retina.png"
+                                   srcSet="./img/laptop-retina.avif"
                                    media="(min-resolution: 2dppx)"
                               />
                               <img
-                                   src="./img/laptop-regular.png"
+                                   src="./img/laptop-regular.avif"
                                    alt="Laptop"
                                    className="w-[19rem] -translate-y-5 z-20"
                               />
                          </picture>
 
-                         {/* <img
-                              src="./img/laptop-regular.png"
-                              srcSet="./img/laptop-regular.png 1x, ./img/laptop-retina.png 2x"
-                              className="w-[19rem] -translate-y-5 z-20"
-                              alt="Laptop"
-                         /> */}
-
                          <picture>
                               <source
-                                   srcSet="./img/laptop-shadow-retina.png"
+                                   srcSet="./img/laptop-shadow-retina.avif"
                                    media="(min-resolution: 2dppx)"
                               />
                               <img
-                                   src="./img/laptop-shadow.png"
+                                   src="./img/laptop-shadow.avif"
                                    alt=""
                                    className="w-[19rem] -translate-y-20 -translate-x-4 z-10"
                               />
                          </picture>
-
-                         {/*  <img
-                              src="./img/laptop-shadow.png"
-                              srcSet="./img/laptop-shadow.png 1x, ./img/laptop-shadow-retina.png 2x"
-                              className="w-[19rem] -translate-y-20 -translate-x-4 z-10"
-                              alt=""
-                         /> */}
                     </animated.div>
                </animated.div>
                <div className="flex flex-col items-center absolute z-50 mt-[26rem] w-[18.8rem] lg:w-full">
