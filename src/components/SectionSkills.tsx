@@ -49,7 +49,7 @@ export default function SectionSkills() {
      return (
           <section
                id="Skills"
-               className="flex flex-col min-h-screen items-center pt-40 overflow-hidden bg-[url(/img/bg-light-radial.png),url(/img/bg-light-1.png),url(/img/bg-light-2.png)] [background-position:0%_50%,0%_0%,50%_50%] bg-no-repeat"
+               className="flex flex-col min-h-screen items-center pt-40 overflow-hidden bg-[url(/img/bg-light-radial.avif),url(/img/bg-light-1.png),url(/img/bg-light-2.avif)] [background-position:0%_50%,0%_0%,50%_50%] bg-no-repeat"
           >
                <div className="w-10/12 sm:w-8/12">
                     <div className="tabtitle">Skills</div>
