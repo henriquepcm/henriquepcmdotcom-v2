@@ -82,6 +82,7 @@ export default function HomeAnimation() {
                                    media="(min-resolution: 2dppx)"
                               />
                               <img
+                                   fetchPriority="high"
                                    src="./img/phone-kiwi-sideways-regular.avif"
                                    alt="Sideways cell phone"
                                    className="w-[7rem] -translate-y-5"
@@ -94,6 +95,7 @@ export default function HomeAnimation() {
                                    media="(min-resolution: 2dppx)"
                               />
                               <img
+                                   fetchPriority="high"
                                    src="./img/phone-kiwi-sideways-shadow.avif"
                                    alt=""
                                    className="w-[7rem] -translate-y-12 translate-x-12"
@@ -108,6 +110,7 @@ export default function HomeAnimation() {
                                    media="(min-resolution: 2dppx)"
                               />
                               <img
+                                   fetchPriority="high"
                                    src="./img/laptop-regular.avif"
                                    alt="Laptop"
                                    className="w-[19rem] -translate-y-5 z-20"
@@ -120,6 +123,7 @@ export default function HomeAnimation() {
                                    media="(min-resolution: 2dppx)"
                               />
                               <img
+                                   fetchPriority="high"
                                    src="./img/laptop-shadow.avif"
                                    alt=""
                                    className="w-[19rem] -translate-y-20 -translate-x-4 z-10"
