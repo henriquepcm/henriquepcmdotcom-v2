@@ -11,7 +11,7 @@ import { DownloadIcon } from "./Icons/DownloadIcon";
 const linkProps = {
      label: "Download my Resume (PDF)",
      icon: <DownloadIcon className="size-6 text-henriquepcmpink" />,
-     url: "./downloads/Henrique-Pochmann-CV-English.pdf",
+     url: "./downloads/EN - Henrique Pochmann Resume Front-end Developer & UI UX Designer.pdf",
 };
 
 export default function SectionAbout() {
